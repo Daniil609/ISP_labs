@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  app: 
+    tty: true
+    stdin_open: true
+    container_name: print_container
+    build: ./
+    command: python3 print.py
